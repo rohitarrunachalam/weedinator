@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .leaflet-container {
+    height: 600px;
+    width: 100%;
+  }
+  
+  .leaflet-div-icon {
+    background: transparent;
+    border: none;
+  }
+  
+.outfit-300{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+}
+
+
+.outfit-400{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+
+.outfit-500{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+}
+
+.outfit-600{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.outfit-700{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+
+.prediction-window { position: absolute; z-index: 20; }
+
+.video-display-container { margin: 30px 0; width: 360px; height: 360px; }
+
+.video-display {
+
+background: linear-gradient( 354deg, rgb(12,12,12) 0%, rgb(112,112,112) 98%)}
